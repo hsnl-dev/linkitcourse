@@ -12,10 +12,10 @@ Hardware Hookup:
 
 *****************************************************************/
 // We'll use SoftwareSerial to communicate with the XBee:
-#include <SoftwareSerial.h>
+//#include <SoftwareSerial.h>
 // XBee's DOUT (TX) is connected to pin 2 (Arduino's Software RX)
 // XBee's DIN (RX) is connected to pin 3 (Arduino's Software TX)
-SoftwareSerial Serial1(0, 1); // RX, TX
+//SoftwareSerial Serial1(0, 1); // RX, TX
 
 void setup()
 {
